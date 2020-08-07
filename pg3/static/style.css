@@ -46,19 +46,12 @@
         display:grid;
         grid-template-columns: 50% 50%;
     }
-    input {
-    background: none;
-    font-family: courier;
-    font-size: 1.1em;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid black;
-    }
     h1{
-        font-size: 20pt;
+        font-size: 25pt;
     }
     #content{
         width:30%;
+        font-size:20pt;
     }
     body {
         width:100%;
