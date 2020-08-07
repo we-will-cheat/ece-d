@@ -1,4 +1,4 @@
-var socket = io("localhost:3000");
+var socket = io("https://we-will-cheat-xx.glitch.me/");
 
 var flag = "none";
 
