@@ -1,0 +1,61 @@
+@media only screen and (min-width: 1024px) {html{
+    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/Pg1/bg3.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: courier; 
+    overflow: hidden;
+    }
+    #sub{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    input {
+    background: none;
+    font-family: courier;
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    }
+    body {
+        width:30%;
+    margin:0;
+    padding:0 40pt;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    html{
+        margin:0;padding:0;
+        color:white;
+    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/even.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: courier; 
+    }
+    body {
+        margin:0;
+        padding:8px;
+        height:100vh;
+        background-color: rgba(0,0,0,0.3);
+        font-size:44pt;
+        }
+    h1{
+        font-size : 64pt;
+        font-weight: bolder;
+    }
+    #content{
+        line-height: 60pt;
+        font-weight: bolder;
+        width:85%;
+        margin:20pt auto;
+        padding:30pt 20pt;
+        background-color: rgba(0,0,0,0.7);
+    }
+    #container{
+        text-align: center;
+    }
+}

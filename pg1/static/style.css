@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1024px) {html{
+    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/Pg1/bg3.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: courier; 
+    overflow: hidden;
+    }
+    #sub{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    input {
+    background: none;
+    font-family: courier;
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    }
+    body {
+        width:30%;
+    margin:0;
+    padding:0 40pt;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    html{
+        margin:0;padding:0;
+        color:white;
+    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/bg.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: courier; 
+    }
+    body {
+        margin:0;
+        padding:8px;
+        height:100vh;
+        background-color: rgba(0,0,0,0.3);
+        font-size:44pt;
+        }
+    h1{
+        font-size : 64pt;
+        font-weight: bolder;
+    }
+    #empty1{
+        height:37vh;
+    }
+    #container{
+        text-align: center;
+    }
+    input{
+        text-align: center;
+        width:55%;
+        font-size:40pt;
+        padding:20pt 20pt;
+        margin-top:20pt;
+        margin-bottom:20pt;
+        background-color: rgba(0,0,0,0.5);
+        color:white;
+        border: 4pt solid rgba(255,255,255,0.3);
+    }
+    #sub{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .button{
+        width:60%;
+        font-size:40pt;
+        padding:25pt 15pt;
+        color:white;
+        font-weight: bolder;
+        background-color: rgba(0,0,0,0.5);
+        border: 4pt solid rgba(255,255,255,0.7);
+        box-shadow: 20px 20px 4px 2px black;
+        transition: all 0.5s ease;
+    }
+    .button:active { 
+        transform: scale(0.85);
+        box-shadow: 20px 20px 4px 2px black; 
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgba(255,255,255,1);
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: rgba(255,255,255,1);
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: rgba(255,255,255,1);
+      }
+}
