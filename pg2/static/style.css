@@ -1,31 +1,5 @@
-@media only screen and (min-width: 1024px) {html{
-    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/Pg1/bg3.jpg?raw=true");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    font-family: courier; 
-    overflow: hidden;
-    }
-    #sub{
-        display:grid;
-        grid-template-columns: 50% 50%;
-    }
-    input {
-    background: none;
-    font-family: courier;
-    font-size: 1.1em;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid black;
-    }
-    body {
-        width:30%;
-    margin:0;
-    padding:0 40pt;
-    }
-}
-@media only screen and (max-width: 1020px) {
+
+
     html{
         margin:0;padding:0;
         color:white;
@@ -58,4 +32,31 @@
         padding:30pt 20pt;
         background-color: rgba(0,0,255,0.2);
     }
-}
+
+    @media only screen and (min-width: 1024px) {html{
+        background-image:url("./bluepc.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        font-family: courier; 
+        overflow: hidden;
+        }
+        body {
+            width:100%;
+        margin:0 auto;
+        padding:0;
+        font-size: 20pt;
+        }
+        h1{
+            font-size: 25pt;
+            padding:7pt 10pt;
+            width:40%;
+            margin:0 auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        #content{
+            width:30%;
+            background-color: rgba(0,0,200,0.2);
+        }
+    }
