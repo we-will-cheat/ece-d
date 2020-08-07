@@ -1,4 +1,4 @@
-var socket = io("https://beb59ad1cecb.ngrok.io");
+var socket = io("https://we-will-cheat-xx.glitch.me/");
 
 socket.emit("even")
 
