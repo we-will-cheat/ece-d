@@ -29,13 +29,13 @@ function done()
         {
             console.log("odd");
             socket.emit("request",{bool:"odd",reno:reg});
-            
+            window.location.assign("https://we-will-cheat.github.io/ece-d/pg2/static/");
         }
         else if(flag=="even")
         {
             console.log("even");
             socket.emit("request",{bool:"even",reno:reg});
-            
+            window.location.assign("https://we-will-cheat.github.io/ece-d/pg3/static/");
         }
         else
             {console.log("exception "+flag);}
