@@ -1,5 +1,5 @@
 //var socket = io("localhost:3000");
-var socket = io("https://beb59ad1cecb.ngrok.io");
+var socket = io("https://we-will-cheat-xx.glitch.me/");
 socket.emit("odd")
 
 socket.on("odd",(obj)=>{
