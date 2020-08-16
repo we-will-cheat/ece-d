@@ -1,0 +1,63 @@
+
+
+    html{
+        margin:0;padding:0;
+        color:white;
+    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/mob_odd.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: courier; 
+    }
+    body {
+        margin:0;
+        padding:8px;
+        height:100vh;
+        background-color: rgba(0,0,0,0.3);
+        font-size:44pt;
+        }
+    h1{
+        font-size : 64pt;
+        font-weight: bolder;
+    }
+    #container{
+        text-align: center;
+    }
+    #content{
+        line-height: 60pt;
+        font-weight: bolder;
+        width:85%;
+        margin:20pt auto;
+        padding:30pt 20pt;
+        background-color: rgba(0,0,255,0.2);
+    }
+
+    @media only screen and (min-width: 1024px) {html{
+        background-image:url("./bluepc.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        font-family: courier; 
+        overflow: hidden;
+        }
+        body {
+            width:100%;
+        margin:0 auto;
+        padding:0;
+        font-size: 20pt;
+        }
+        h1{
+            font-size: 25pt;
+            padding:4pt 10pt;
+            width:40%;
+            margin:0 auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        #content{
+            line-height:25pt;
+            width:30%;
+            background-color: rgba(0,0,0,0.5);
+        }
+    }
