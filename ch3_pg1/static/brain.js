@@ -111,6 +111,12 @@ function done()
             socket.emit("request",{bool:"bb",reno:reg});
             window.location.assign("https://we-will-cheat.github.io/ece-d/pg3/static/");
         }
+        else if(flag=="cc")
+        {
+            console.log("cc");
+            socket.emit("request",{bool:"cc",reno:reg});
+            window.location.assign("https://we-will-cheat.github.io/ece-d/ch3_pg4/static/index.html");
+        }
         else
             {console.log("exception "+flag);}
     }
