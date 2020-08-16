@@ -103,13 +103,13 @@ function done()
         {
             console.log("aa");
             socket.emit("request",{bool:"aa",reno:reg});
-            window.location.assign("https://we-will-cheat.github.io/ece-d/pg2/static/");
+            window.location.assign("https://we-will-cheat.github.io/ece-d/ch3_pg2/static/index.html");
         }
         else if(flag=="bb")
         {
             console.log("bb");
             socket.emit("request",{bool:"bb",reno:reg});
-            window.location.assign("https://we-will-cheat.github.io/ece-d/pg3/static/");
+            window.location.assign("https://we-will-cheat.github.io/ece-d/ch3_pg3/static/index.html");
         }
         else if(flag=="cc")
         {
