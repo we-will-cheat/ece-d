@@ -8,4 +8,4 @@ socket.on("even",(obj)=>{
 
 setInterval(function() {
   socket.emit("even");
-}, 0.2*60*1000);
+}, 3*1000);
