@@ -1,0 +1,132 @@
+html{
+        margin:0;padding:0;
+        color:white;
+    background-image:url("https://github.com/SayadPervez/It-s_me/blob/master/bg.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: courier; 
+    }
+    body {
+        margin:0;
+        padding:8px;
+        height:100vh;
+        background-color: rgba(0,0,0,0.3);
+        font-size:44pt;
+        }
+    h1{
+        font-size : 64pt;
+        font-weight: bolder;
+    }
+    #empty1{
+        height:37vh;
+    }
+    #container{
+        text-align: center;
+    }
+    input{
+        text-align: center;
+        width:55%;
+        font-size:40pt;
+        padding:20pt 20pt;
+        margin-top:20pt;
+        margin-bottom:20pt;
+        background-color: rgba(0,0,0,0.5);
+        color:white;
+        border: 4pt solid rgba(255,255,255,0.3);
+    }
+    #sub{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .button{
+        width:60%;
+        font-size:40pt;
+        padding:25pt 15pt;
+        color:white;
+        font-weight: bolder;
+        background-color: rgba(247, 2, 2, 0.356);
+        border: 4pt solid rgba(255,255,255,0.7);
+        box-shadow: 20px 20px 4px 2px black;
+        transition: all 0.5s ease;
+    }
+    .button:active { 
+        transform: scale(0.85);
+        box-shadow: 20px 20px 4px 2px black; 
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgba(255,255,255,1);
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: rgba(255,255,255,1);
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: rgba(255,255,255,1);
+      }
+      @media only screen and (min-width: 1024px) 
+      {html{
+        background-image:url("./spd.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        font-family: courier; 
+        overflow: hidden;
+        font-size:20pt;
+        color:black;
+        }
+        body {
+            font-size:20pt;
+        width:50%;
+        margin:0;
+        padding:0 40pt;
+        background-color: rgba(0,0,0,0);
+        }
+        h1{
+            margin-top: 35pt;
+        }
+        .pch{
+            display: none;
+        }
+        input{
+            font-size:20pt;
+            padding:8pt 10pt;
+            border:2pt solid;
+            background-color: rgba(0,0,0,0.8);
+        }
+        .button{
+            font-size:20pt;
+            padding:5pt 10pt;
+            border:2pt solid;
+            color:black;
+            width:30%;background-color: rgba(255, 0, 8, 0.8);
+            border: 2pt solid black;
+            box-shadow: 10px 10px 2px 1px rgba(0,0,0,0.6);
+        }
+        .button:active { 
+            transform: scale(0.85);
+            box-shadow: 10px 10px 2px 1px rgba(0,0,0,0.6); 
+        }
+        #odd{
+            position: relative;
+            left:80pt;
+        }
+        #even{
+            position: relative;
+            right:80pt;
+        }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+    }
