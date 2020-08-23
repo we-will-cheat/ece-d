@@ -8,4 +8,4 @@ socket.on("odd",(obj)=>{
 
 setInterval(function() {
   socket.emit("odd");
-}, 0.2*60*1000);
+}, 3*1000);
